@@ -12,14 +12,14 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Setup Cicada
+      - name: Setup Katoa
         uses: ./
 
-      - name: Cicada Version
-        run: cicada -V
+      - name: Katoa Version
+        run: katoa -V
 
-      - name: Cicada init
-        run: cicada init pipeline
+      - name: Katoa init
+        run: katoa init pipeline
 
-      - name: Cicada run
-        run: cicada run .cicada/pipeline.ts
+      - name: Katoa run
+        run: katoa run .katoa/pipeline.ts
