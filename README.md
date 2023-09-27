@@ -1,11 +1,11 @@
-# setup-cicada
+# setup-katoa (PROBABLY NOT WORKING)
 
-Set up your GitHub Actions workflow with the latest version of Cicada
+Set up your GitHub Actions workflow with the latest version of Katoa
 
 ## Usage
 
 ### Latest
 
 ```yaml
-- uses: cicadahq/setup-cicada@v1
+- uses: katoahq/setup-katoa@v1
 ```

@@ -1,14 +1,14 @@
-name: 'setup-cicada'
-description: 'Setup Cicada'
+name: "setup-katoa"
+description: "Setup Katoa"
 branding:
-  icon: 'arrow-right-circle'
-  color: 'purple'
+  icon: "arrow-right-circle"
+  color: "purple"
 runs:
-  using: 'composite'
+  using: "composite"
   steps:
     - uses: docker/setup-buildx-action@v2
     - uses: denoland/setup-deno@v1
       with:
-          deno-version: v1.x
-    - run: curl -fSsL https://raw.githubusercontent.com/cicadahq/cicada/main/download.sh | sh
+        deno-version: v1.x
+    - run: curl -fSsL https://raw.githubusercontent.com/katoahq/katoa/main/download.sh | sh
       shell: bash
