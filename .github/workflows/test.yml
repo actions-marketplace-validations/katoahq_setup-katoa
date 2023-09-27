@@ -17,9 +17,3 @@ jobs:
 
       - name: Katoa Version
         run: katoa -V
-
-      - name: Katoa init
-        run: katoa init pipeline
-
-      - name: Katoa run
-        run: katoa run .katoa/pipeline.ts
