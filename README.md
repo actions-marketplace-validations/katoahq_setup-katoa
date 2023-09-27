@@ -1,4 +1,4 @@
-# setup-katoa (PROBABLY NOT WORKING)
+# setup-katoa
 
 Set up your GitHub Actions workflow with the latest version of Katoa
 
@@ -7,5 +7,5 @@ Set up your GitHub Actions workflow with the latest version of Katoa
 ### Latest
 
 ```yaml
-- uses: katoahq/setup-katoa@v1
+- uses: katoahq/setup-katoa@main
 ```
